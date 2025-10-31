@@ -2,7 +2,7 @@ import { lazy } from "react";
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 
-const Term = () => {
+const PrivacyPolicy = () => {
   return (
     <Container>
       <ScrollToTop />
@@ -15,4 +15,4 @@ const Term = () => {
   );
 };
 
-export default Term;
+export default PrivacyPolicy;
