@@ -7,7 +7,7 @@ const routes = [
   {
     path: ["/politica-de-privacidade"],
     exact: true,
-    component: "Term"
+    component: "PrivacyPolicy"
   }
 ];
 
